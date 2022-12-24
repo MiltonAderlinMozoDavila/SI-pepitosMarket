@@ -1,0 +1,17 @@
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.AssemblyReference.cache
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfoInputs.cache
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfo.cs
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.CoreCompileInputs.cache
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.Principal.FmLogin.resources
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.GenerateResource.cache
+W:\LaVecindad\AppLaVecindad\Presentacion\bin\Debug\net6.0-windows\Presentacion.exe
+W:\LaVecindad\AppLaVecindad\Presentacion\bin\Debug\net6.0-windows\Presentacion.deps.json
+W:\LaVecindad\AppLaVecindad\Presentacion\bin\Debug\net6.0-windows\Presentacion.runtimeconfig.json
+W:\LaVecindad\AppLaVecindad\Presentacion\bin\Debug\net6.0-windows\Presentacion.dll
+W:\LaVecindad\AppLaVecindad\Presentacion\bin\Debug\net6.0-windows\Presentacion.pdb
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.dll
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\refint\Presentacion.dll
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.pdb
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\Presentacion.genruntimeconfig.cache
+W:\LaVecindad\AppLaVecindad\Presentacion\obj\Debug\net6.0-windows\ref\Presentacion.dll

@@ -1,0 +1,101 @@
+#include "stdafx.h"
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+using namespace System;
+{
+
+class cs
+{
+        /* *********************** ATRIBUTOS ************************ */
+        private:
+            string as;
+            string asf;
+            string afsfa;
+
+        /* *********************** METODOS ************************ */
+        public:
+        /* ==================== CONSTRUCTORES ======================= */
+        // ----------------------------------------------------------------
+        cs()
+        {
+            as = "";
+            asf = "";
+            afsfa = "";
+        }
+
+        // ----------------------------------------------------------------
+        cs( string ps, string psf, string pfsfa)
+        {
+            as = ps;
+            asf = psf;
+            afsfa = pfsfa;
+        }
+
+        /* ==================== MÉTODOS GET Y SET ======================= */
+        // ----------------------------------------------------------------
+        string Gets()
+        {
+            return as;
+        }
+        // ----------------------------------------------------------------
+        void Sets(string ps)
+        {
+            as = ps;
+        }
+        // ----------------------------------------------------------------
+        string Getsf()
+        {
+            return asf;
+        }
+        // ----------------------------------------------------------------
+        void Setsf(string psf)
+        {
+            asf = psf;
+        }
+        // ----------------------------------------------------------------
+        string Getfsfa()
+        {
+            return afsfa;
+        }
+        // ----------------------------------------------------------------
+        void Setfsfa(string pfsfa)
+        {
+            afsfa = pfsfa;
+        }
+
+        /* ==================== MÉTODOS PROCESO ======================= */
+        // ----------------------------------------------------------------
+        void Leer()
+        {
+            cout << "INGRESAR DATOS DE S" << endl;
+            cout << "===================" << endl;
+            cout << "Ingrese s: ";
+            getline(cin, as);
+            cout << "Ingrese sf: ";
+            getline(cin, asf);
+            cout << "Ingrese fsfa: ";
+            getline(cin, afsfa);
+
+        }
+        // ----------------------------------------------------------------
+        void Mostrar()
+        {
+            cout << "DATOS DE S" << endl;
+            cout << "==========" << endl;
+            cout << "s:" << as << endl;
+            cout << "sf:" << asf << endl;
+            cout << "fsfa:" << afsfa << endl;
+
+        }
+        // ----------------------------------------------------------------
+        void Escribir()
+        {
+            cout << as << " " << asf << " " << afsfa << endl;
+
+        }
+
+    }
+};
