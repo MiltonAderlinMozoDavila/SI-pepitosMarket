@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Presentacion.Principal
 {
-    public partial class FmLogin : Form
+    public partial class fmLogin : Form
     {
-        public FmLogin()
+        public fmLogin()
         {
             InitializeComponent();
         }
+
+        
     }
 }

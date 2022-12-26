@@ -1,101 +1,125 @@
-#include "stdafx.h"
-#include <iostream>
-#include <conio.h>
-#include <string>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-using namespace std;
-using namespace System;
+namespace 
 {
+    public class c
+    {
 
-class cs
-{
-        /* *********************** ATRIBUTOS ************************ */
-        private:
-            string as;
-            string asf;
-            string afsfa;
+        #region *********************** ATRIBUTOS ************************
+            private string aDNI;
+            private string aAP;
+            private string aAM;
+            private string aNombres;
+            private string aSexo;
+        #endregion *********************** ATRIBUTOS ************************
 
-        /* *********************** METODOS ************************ */
-        public:
-        /* ==================== CONSTRUCTORES ======================= */
+        #region *********************** METODOS ************************
+        #region ==================== CONSTRUCTORES =======================
         // ----------------------------------------------------------------
-        cs()
+        public c()
         {
-            as = "";
-            asf = "";
-            afsfa = "";
-        }
-
-        // ----------------------------------------------------------------
-        cs( string ps, string psf, string pfsfa)
-        {
-            as = ps;
-            asf = psf;
-            afsfa = pfsfa;
+            aDNI = "";
+            aAP = "";
+            aAM = "";
+            aNombres = "";
+            aSexo = "";
         }
 
-        /* ==================== MÉTODOS GET Y SET ======================= */
         // ----------------------------------------------------------------
-        string Gets()
+        public c( string pDNI, string pAP, string pAM, string pNombres, string pSexo)
         {
-            return as;
+            aDNI = pDNI;
+            aAP = pAP;
+            aAM = pAM;
+            aNombres = pNombres;
+            aSexo = pSexo;
         }
-        // ----------------------------------------------------------------
-        void Sets(string ps)
-        {
-            as = ps;
-        }
-        // ----------------------------------------------------------------
-        string Getsf()
-        {
-            return asf;
-        }
-        // ----------------------------------------------------------------
-        void Setsf(string psf)
-        {
-            asf = psf;
-        }
-        // ----------------------------------------------------------------
-        string Getfsfa()
-        {
-            return afsfa;
-        }
-        // ----------------------------------------------------------------
-        void Setfsfa(string pfsfa)
-        {
-            afsfa = pfsfa;
-        }
+        #endregion ==================== CONSTRUCTORES =======================
 
-        /* ==================== MÉTODOS PROCESO ======================= */
+        #region ==================== PROPIEDADES =======================
         // ----------------------------------------------------------------
-        void Leer()
+        public string DNI
         {
-            cout << "INGRESAR DATOS DE S" << endl;
-            cout << "===================" << endl;
-            cout << "Ingrese s: ";
-            getline(cin, as);
-            cout << "Ingrese sf: ";
-            getline(cin, asf);
-            cout << "Ingrese fsfa: ";
-            getline(cin, afsfa);
-
+            get { return aDNI;}
+            set { aDNI = value;}
         }
         // ----------------------------------------------------------------
-        void Mostrar()
+        public string AP
         {
-            cout << "DATOS DE S" << endl;
-            cout << "==========" << endl;
-            cout << "s:" << as << endl;
-            cout << "sf:" << asf << endl;
-            cout << "fsfa:" << afsfa << endl;
+            get { return aAP;}
+            set { aAP = value;}
+        }
+        // ----------------------------------------------------------------
+        public string AM
+        {
+            get { return aAM;}
+            set { aAM = value;}
+        }
+        // ----------------------------------------------------------------
+        public string Nombres
+        {
+            get { return aNombres;}
+            set { aNombres = value;}
+        }
+        // ----------------------------------------------------------------
+        public string Sexo
+        {
+            get { return aSexo;}
+            set { aSexo = value;}
+        }
+        #endregion ==================== PROPIEDADES =======================
+
+        #region ==================== MÉTODOS PROCESO =======================
+        // ----------------------------------------------------------------
+        public string ToString()
+        {
 
         }
         // ----------------------------------------------------------------
-        void Escribir()
+        public bool Equals()
         {
-            cout << as << " " << asf << " " << afsfa << endl;
 
         }
+        // ----------------------------------------------------------------
+        public void Leer()
+        {
+            Console.Write("INGRESAR DATOS DE ");
+            Console.Write("==================");
+            Console.Write("Ingrese DNI: ");
+            DNI = Console.ReadLine();
+            Console.Write("Ingrese AP: ");
+            AP = Console.ReadLine();
+            Console.Write("Ingrese AM: ");
+            AM = Console.ReadLine();
+            Console.Write("Ingrese Nombres: ");
+            Nombres = Console.ReadLine();
+            Console.Write("Ingrese Sexo: ");
+            Sexo = Console.ReadLine();
 
+        }
+        // ----------------------------------------------------------------
+        public void Mostrar()
+        {
+            Console.Write("DATOS DE ");
+            Console.Write("=========");
+            Console.WriteLine("DNI = ",DNI);
+            Console.WriteLine("AP = ",AP);
+            Console.WriteLine("AM = ",AM);
+            Console.WriteLine("Nombres = ",Nombres);
+            Console.WriteLine("Sexo = ",Sexo);
+
+        }
+        // ----------------------------------------------------------------
+        public void Escribir()
+        {
+            Console.WriteLine(DNI.PadRight(3) + AP.PadRight(2) + AM.PadRight(2) + Nombres.PadRight(40) + Sexo.PadRight(4));
+
+        }
+        #endregion ==================== MÉTODOS PROCESO =======================
+
+        #endregion *********************** METODOS ************************
     }
-};
+}
