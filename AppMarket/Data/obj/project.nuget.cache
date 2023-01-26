@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AioETVsK1kiZFObWt05LwrWyE9e6PYyfgqltmCjEnqDndyNy04UHJi5Uy4IvhjP4feb4W4V/y5Wzt8xQfx08wQ==",
+  "dgSpecHash": "FBt7+Oj5U+GYj/NUNwP93e3TQ4uUFfkw6wDnPiKSKEciOwYBmGrZ4I1gFWmTYigQNFW1JDUI7OX+POb/SI+y6Q==",
   "success": true,
-  "projectFilePath": "W:\\Sistema-de-facturacion-MDS-\\AppMarket\\Data\\Data.csproj",
+  "projectFilePath": "W:\\SI-pepitosMarket\\AppMarket\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milto\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Milto\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Sistema-de-facturacion-MDS-\\AppMarket\\Data\\Data.csproj": {}
+    "W:\\SI-pepitosMarket\\AppMarket\\Data\\Data.csproj": {}
   },
   "projects": {
-    "W:\\Sistema-de-facturacion-MDS-\\AppMarket\\Data\\Data.csproj": {
+    "W:\\SI-pepitosMarket\\AppMarket\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Sistema-de-facturacion-MDS-\\AppMarket\\Data\\Data.csproj",
+        "projectUniqueName": "W:\\SI-pepitosMarket\\AppMarket\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "W:\\Sistema-de-facturacion-MDS-\\AppMarket\\Data\\Data.csproj",
+        "projectPath": "W:\\SI-pepitosMarket\\AppMarket\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Milto\\.nuget\\packages\\",
-        "outputPath": "W:\\Sistema-de-facturacion-MDS-\\AppMarket\\Data\\obj\\",
+        "outputPath": "W:\\SI-pepitosMarket\\AppMarket\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
