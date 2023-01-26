@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FBt7+Oj5U+GYj/NUNwP93e3TQ4uUFfkw6wDnPiKSKEciOwYBmGrZ4I1gFWmTYigQNFW1JDUI7OX+POb/SI+y6Q==",
+  "dgSpecHash": "WQx1fJZMeb7tePTZ+J01/ppk4ChnA0uEopys9tgHVN1xtdkxO8lmuSRc6vP19LTY2TEpxTRxsLL/RPSL6BV3eQ==",
   "success": true,
   "projectFilePath": "W:\\SI-pepitosMarket\\AppMarket\\Data\\Data.csproj",
   "expectedPackageFiles": [
@@ -14,5 +14,12 @@
     "C:\\Users\\Milto\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Milto\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché W:\\SI-pepitosMarket\\AppMarket\\Data\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

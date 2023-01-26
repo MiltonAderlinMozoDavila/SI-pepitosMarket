@@ -1,0 +1,17 @@
+W:\SI-pepitosMarket\AppMarket\Logica\bin\Debug\net6.0\Logica.deps.json
+W:\SI-pepitosMarket\AppMarket\Logica\bin\Debug\net6.0\Logica.dll
+W:\SI-pepitosMarket\AppMarket\Logica\bin\Debug\net6.0\Logica.pdb
+W:\SI-pepitosMarket\AppMarket\Logica\bin\Debug\net6.0\Data.dll
+W:\SI-pepitosMarket\AppMarket\Logica\bin\Debug\net6.0\Entidades.dll
+W:\SI-pepitosMarket\AppMarket\Logica\bin\Debug\net6.0\Data.pdb
+W:\SI-pepitosMarket\AppMarket\Logica\bin\Debug\net6.0\Entidades.pdb
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\Logica.csproj.AssemblyReference.cache
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\Logica.AssemblyInfoInputs.cache
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\Logica.AssemblyInfo.cs
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\Logica.csproj.CoreCompileInputs.cache
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\Logica.csproj.CopyComplete
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\Logica.dll
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\refint\Logica.dll
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\Logica.pdb
+W:\SI-pepitosMarket\AppMarket\Logica\obj\Debug\net6.0\ref\Logica.dll

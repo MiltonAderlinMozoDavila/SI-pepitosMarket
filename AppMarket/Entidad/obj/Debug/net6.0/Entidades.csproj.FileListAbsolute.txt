@@ -1,0 +1,12 @@
+W:\SI-pepitosMarket\AppMarket\Entidad\bin\Debug\net6.0\Entidades.deps.json
+W:\SI-pepitosMarket\AppMarket\Entidad\bin\Debug\net6.0\Entidades.dll
+W:\SI-pepitosMarket\AppMarket\Entidad\bin\Debug\net6.0\Entidades.pdb
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\Entidades.dll
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\refint\Entidades.dll
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\Entidades.pdb
+W:\SI-pepitosMarket\AppMarket\Entidad\obj\Debug\net6.0\ref\Entidades.dll

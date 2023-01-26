@@ -1,0 +1,89 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace 
+{
+    public class cDBConfig
+    {
+
+        #region *********************** ATRIBUTOS ************************
+            private string aServerName;
+            private string aDataBaseName;
+            private string aUserID;
+            private string aPassword;
+            private bool aSecurity;
+            private bool aMultiple;
+        #endregion *********************** ATRIBUTOS ************************
+
+        #region *********************** METODOS ************************
+        #region ==================== CONSTRUCTORES =======================
+        // ----------------------------------------------------------------
+        public cDBConfig()
+        {
+            aServerName = "";
+            aDataBaseName = "";
+            aUserID = "";
+            aPassword = "";
+            aSecurity = false;
+            aMultiple = false;
+        }
+
+        // ----------------------------------------------------------------
+        public cDBConfig( string pServerName, string pDataBaseName, string pUserID, string pPassword, bool pSecurity, bool pMultiple)
+        {
+            aServerName = pServerName;
+            aDataBaseName = pDataBaseName;
+            aUserID = pUserID;
+            aPassword = pPassword;
+            aSecurity = pSecurity;
+            aMultiple = pMultiple;
+        }
+        #endregion ==================== CONSTRUCTORES =======================
+
+        #region ==================== PROPIEDADES =======================
+        // ----------------------------------------------------------------
+        public string ServerName
+        {
+            get { return aServerName;}
+            set { aServerName = value;}
+        }
+        // ----------------------------------------------------------------
+        public string DataBaseName
+        {
+            get { return aDataBaseName;}
+            set { aDataBaseName = value;}
+        }
+        // ----------------------------------------------------------------
+        public string UserID
+        {
+            get { return aUserID;}
+            set { aUserID = value;}
+        }
+        // ----------------------------------------------------------------
+        public string Password
+        {
+            get { return aPassword;}
+            set { aPassword = value;}
+        }
+        // ----------------------------------------------------------------
+        public bool Security
+        {
+            get { return aSecurity;}
+            set { aSecurity = value;}
+        }
+        // ----------------------------------------------------------------
+        public bool Multiple
+        {
+            get { return aMultiple;}
+            set { aMultiple = value;}
+        }
+        #endregion ==================== PROPIEDADES =======================
+
+        #region ==================== MÉTODOS PROCESO =======================
+        #endregion ==================== MÉTODOS PROCESO =======================
+
+        #endregion *********************** METODOS ************************
+    }
+}
