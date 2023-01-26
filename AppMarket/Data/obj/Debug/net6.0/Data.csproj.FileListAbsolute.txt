@@ -1,0 +1,15 @@
+W:\SI-pepitosMarket\AppMarket\Data\bin\Debug\net6.0\Data.deps.json
+W:\SI-pepitosMarket\AppMarket\Data\bin\Debug\net6.0\Data.dll
+W:\SI-pepitosMarket\AppMarket\Data\bin\Debug\net6.0\Data.pdb
+W:\SI-pepitosMarket\AppMarket\Data\bin\Debug\net6.0\Entidades.dll
+W:\SI-pepitosMarket\AppMarket\Data\bin\Debug\net6.0\Entidades.pdb
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\Data.csproj.CopyComplete
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\Data.dll
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\refint\Data.dll
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\Data.pdb
+W:\SI-pepitosMarket\AppMarket\Data\obj\Debug\net6.0\ref\Data.dll

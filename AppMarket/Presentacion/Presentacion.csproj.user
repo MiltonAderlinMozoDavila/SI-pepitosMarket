@@ -4,10 +4,22 @@
     <Compile Update="Modelo\fmAncestro.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Principal\fmAgregarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Principal\fmBusquedaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Principal\fmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Principal\FmIndex.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Principal\FmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Principal\fmVentas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Principal\pruewba.cs">
