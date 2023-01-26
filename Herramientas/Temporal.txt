@@ -5,119 +5,83 @@ using System.Text;
 
 namespace 
 {
-    public class c
+    public class cDBConfig
     {
 
         #region *********************** ATRIBUTOS ************************
-            private string aDNI;
-            private string aAP;
-            private string aAM;
-            private string aNombres;
-            private string aSexo;
+            private string aServerName;
+            private string aDataBaseName;
+            private string aUserID;
+            private string aPassword;
+            private bool aSecurity;
+            private bool aMultiple;
         #endregion *********************** ATRIBUTOS ************************
 
         #region *********************** METODOS ************************
         #region ==================== CONSTRUCTORES =======================
         // ----------------------------------------------------------------
-        public c()
+        public cDBConfig()
         {
-            aDNI = "";
-            aAP = "";
-            aAM = "";
-            aNombres = "";
-            aSexo = "";
+            aServerName = "";
+            aDataBaseName = "";
+            aUserID = "";
+            aPassword = "";
+            aSecurity = false;
+            aMultiple = false;
         }
 
         // ----------------------------------------------------------------
-        public c( string pDNI, string pAP, string pAM, string pNombres, string pSexo)
+        public cDBConfig( string pServerName, string pDataBaseName, string pUserID, string pPassword, bool pSecurity, bool pMultiple)
         {
-            aDNI = pDNI;
-            aAP = pAP;
-            aAM = pAM;
-            aNombres = pNombres;
-            aSexo = pSexo;
+            aServerName = pServerName;
+            aDataBaseName = pDataBaseName;
+            aUserID = pUserID;
+            aPassword = pPassword;
+            aSecurity = pSecurity;
+            aMultiple = pMultiple;
         }
         #endregion ==================== CONSTRUCTORES =======================
 
         #region ==================== PROPIEDADES =======================
         // ----------------------------------------------------------------
-        public string DNI
+        public string ServerName
         {
-            get { return aDNI;}
-            set { aDNI = value;}
+            get { return aServerName;}
+            set { aServerName = value;}
         }
         // ----------------------------------------------------------------
-        public string AP
+        public string DataBaseName
         {
-            get { return aAP;}
-            set { aAP = value;}
+            get { return aDataBaseName;}
+            set { aDataBaseName = value;}
         }
         // ----------------------------------------------------------------
-        public string AM
+        public string UserID
         {
-            get { return aAM;}
-            set { aAM = value;}
+            get { return aUserID;}
+            set { aUserID = value;}
         }
         // ----------------------------------------------------------------
-        public string Nombres
+        public string Password
         {
-            get { return aNombres;}
-            set { aNombres = value;}
+            get { return aPassword;}
+            set { aPassword = value;}
         }
         // ----------------------------------------------------------------
-        public string Sexo
+        public bool Security
         {
-            get { return aSexo;}
-            set { aSexo = value;}
+            get { return aSecurity;}
+            set { aSecurity = value;}
+        }
+        // ----------------------------------------------------------------
+        public bool Multiple
+        {
+            get { return aMultiple;}
+            set { aMultiple = value;}
         }
         #endregion ==================== PROPIEDADES =======================
 
         #region ==================== MÉTODOS PROCESO =======================
-        // ----------------------------------------------------------------
-        public string ToString()
-        {
-
-        }
-        // ----------------------------------------------------------------
-        public bool Equals()
-        {
-
-        }
-        // ----------------------------------------------------------------
-        public void Leer()
-        {
-            Console.Write("INGRESAR DATOS DE ");
-            Console.Write("==================");
-            Console.Write("Ingrese DNI: ");
-            DNI = Console.ReadLine();
-            Console.Write("Ingrese AP: ");
-            AP = Console.ReadLine();
-            Console.Write("Ingrese AM: ");
-            AM = Console.ReadLine();
-            Console.Write("Ingrese Nombres: ");
-            Nombres = Console.ReadLine();
-            Console.Write("Ingrese Sexo: ");
-            Sexo = Console.ReadLine();
-
-        }
-        // ----------------------------------------------------------------
-        public void Mostrar()
-        {
-            Console.Write("DATOS DE ");
-            Console.Write("=========");
-            Console.WriteLine("DNI = ",DNI);
-            Console.WriteLine("AP = ",AP);
-            Console.WriteLine("AM = ",AM);
-            Console.WriteLine("Nombres = ",Nombres);
-            Console.WriteLine("Sexo = ",Sexo);
-
-        }
-        // ----------------------------------------------------------------
-        public void Escribir()
-        {
-            Console.WriteLine(DNI.PadRight(3) + AP.PadRight(2) + AM.PadRight(2) + Nombres.PadRight(40) + Sexo.PadRight(4));
-
-        }
         #endregion ==================== MÉTODOS PROCESO =======================
 
         #endregion *********************** METODOS ************************

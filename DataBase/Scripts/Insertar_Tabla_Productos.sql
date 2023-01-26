@@ -1,0 +1,22 @@
+INSERT INTO Producto (CodigoProducto, Nombre, Descripcion, UnidadMedida, Precio, Stock, FechaCaducidad)
+VALUES ('P001', 'Leche', 'Leche entera de vaca', 'lt', 2.5, 50, '2022-12-01'),
+       ('P002', 'Pan de molde', 'Pan de molde integral', 'un', 1.5, 100, '2022-11-30'),
+       ('P003', 'Jugo de naranja', 'Jugo de naranja natural', 'lt', 3.5, 40, '2022-12-15'),
+       ('P004', 'Arroz', 'Arroz integral', 'kg', 5, 80, '2022-12-01'),
+       ('P005', 'Aceite de oliva', 'Aceite de oliva virgen extra', 'lt', 8, 20, '2022-12-01'),
+       ('P006', 'Atun', 'Atun en lata', 'un', 2.5, 50, '2022-11-30'),
+       ('P007', 'Manzana', 'Manzana roja', 'kg', 3, 80, '2022-12-15'),
+       ('P008', 'Cereales', 'Cereales integrales', 'un', 4, 100, '2022-12-01'),
+       ('P009', 'Queso', 'Queso rallado', 'un', 5, 20, '2022-12-01'),
+       ('P010', 'Huevo','Huevo de gallina', 'Kg', 8,30,'2022-12-01'),
+	   ('P011', 'Yogurt', 'Yogurt natural', 'un', 2.5, 50, '2022-11-30'),
+       ('P012', 'Galletas', 'Galletas de avena', 'un', 1.5, 100, '2022-12-15'),
+       ('P013', 'Carne', 'Carne de res', 'kg', 15, 40, '2022-12-01'),
+       ('P014', 'Pescado', 'Pescado blanco', 'kg', 10, 80, '2022-12-01'),
+       ('P015', 'Frutas', 'Mixed de frutas', 'kg', 12, 20, '2022-12-01'),
+       ('P016', 'Verduras', 'Mixed de verduras', 'kg', 8, 50, '2022-11-30'),
+       ('P017', 'Tomate', 'Tomate maduro', 'kg', 4, 100, '2022-12-15'),
+       ('P018', 'Zanahoria', 'Zanahoria', 'kg', 2.5, 80, '2022-12-01'),
+       ('P019', 'Leche de soya', 'Leche de soya', 'lt', 3, 20, '2022-12-01'),
+       ('P020', 'Pan integral', 'Pan integral', 'un', 2, 50, '2022-11-30');
+
